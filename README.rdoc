@@ -1,9 +1,9 @@
-This project is an improvised version of the original Project Tracking Website made by dotnetcurry (https://github.com/dotnetcurry/angular-webapi-series). <br/>
+This project is an improvised version of the original Project Tracking Website made by dotnetcurry (https://github.com/dotnetcurry/angular-webapi-series). 
 Please go to the link to get more description of the project. Several functionalities were added and modified.
-<br/>
+
 
 Steps on installing the project:
-<br>
+
 1. Download or clone this repository.
 2. You will find two folders which are WebAPI and FrontEnd.
 3. Double click on the ProjectTrackingWebsite.sln file in WebAPI folder and it will open using Visual Studio
