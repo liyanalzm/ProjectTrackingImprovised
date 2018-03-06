@@ -1,6 +1,14 @@
 This project is an improvised version of the original Project Tracking Website made by dotnetcurry (https://github.com/dotnetcurry/angular-webapi-series). 
 Please go to the link to get more description of the project. Several functionalities were added and modified.
 
+Project mechanisms:
+
+1. ASP.NET Web API
+2. Entity Framework (MVC)
+3. AngularJS
+4. SQL Server 2012 Database
+5. REST API
+
 
 Steps on installing the project:
 
