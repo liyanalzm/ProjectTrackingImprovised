@@ -1,0 +1,2 @@
+This project is an improvised version of the original Project Tracking Website made by dotnetcurry (https://github.com/dotnetcurry/angular-webapi-series). 
+Please go to the link to get more description of the project. Several functionalities were added and modified.
