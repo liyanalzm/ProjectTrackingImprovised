@@ -1,0 +1,47 @@
+﻿<form class="form-horizontal" name="modifyEmployeeForm" ng-init="init()" ng-submit="modifyEmployee(existingEmployee)">
+    <fieldset>
+        <legend>Update Employee</legend>
+        <div class="form-group">
+            <label for="employeeName" class="col-lg-2 control-label">Employee Name</label>
+            <div class="col-lg-10">
+                <input type="text" class="form-control" ng-model="existingEmployee.employeeName" value="{{existingEmployee.employeeName}}"  placeholder="Employee Name">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="designation" class="col-lg-2 control-label">Designation</label>
+            <div class="col-lg-10">
+                <input type="text" class="form-control" ng-model="existingEmployee.designation" placeholder="Employee Designation">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="managerID" class="col-lg-2 control-label">Manager ID</label>
+            <div class="col-lg-10">
+                <input type="text" class="form-control" ng-model="existingEmployee.managerID" placeholder="Manager ID">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="contactNo" class="col-lg-2 control-label">Contact #</label>
+            <div class="col-lg-10">
+                <input type="text" class="form-control" ng-model="existingEmployee.contactNo" placeholder="Contact Number">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="emailID" class="col-lg-2 control-label">EMail ID</label>
+            <div class="col-lg-10">
+                <input type="text" class="form-control" ng-model="existingEmployee.eMailID" placeholder="e-Mail ID">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="skillSets" class="col-lg-2 control-label">Skill Sets</label>
+            <div class="col-lg-10">
+                <input type="text" class="form-control" ng-model="existingEmployee.skillSets" placeholder="Employee Skills">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-lg-10 col-lg-offset-2">
+                <a href="#Employees" class="btn btn-default">Cancel</a>
+                <input type="submit" value="Save Project" class="btn btn-primary"/>
+            </div>
+        </div>
+    </fieldset>
+</form>
