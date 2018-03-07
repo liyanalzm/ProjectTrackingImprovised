@@ -17,6 +17,7 @@ Steps on installing the project:
 3. Double click on the ProjectTrackingWebsite.sln file in WebAPI folder and it will open using Visual Studio.
 4. Go to tools > NuGet Package Manager >  NuGet Package Manager Console.
 5. Type in : Update-Package.
-6. Then build and run the project.
-7. Double click on the ProjectTrackingWebsite.sln file in FrontEnd folder.
-8. Repeat step 4-6.
+6. Then once everything is finished updating, type: Update-Database
+7. Then build and run the project.
+8. Double click on the ProjectTrackingWebsite.sln file in FrontEnd folder.
+9. Repeat step 4-7.
